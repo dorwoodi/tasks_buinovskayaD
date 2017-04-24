@@ -23,6 +23,7 @@ namespace KodirovanieTEXT
                     int cx1 = (int)c;
                     int cx2= cx1 + randomNumber;
                     Console.WriteLine(c+" - "+cx2);
+                    Console.WriteLine("Число шифра - " + randomNumber);
                 }   
             }
             Console.ReadLine();
