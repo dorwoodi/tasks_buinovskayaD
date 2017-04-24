@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text_task", "text_task\text
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_Palindrom", "Word_Palindrom\Word_Palindrom.csproj", "{2D58372D-F2EB-43B0-970C-70B23093A5FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodirovanieTEXT", "KodirovanieTEXT\KodirovanieTEXT.csproj", "{08B958EE-0658-4C0A-A14D-45B14D55438D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2D58372D-F2EB-43B0-970C-70B23093A5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D58372D-F2EB-43B0-970C-70B23093A5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D58372D-F2EB-43B0-970C-70B23093A5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
