@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_Palindrom", "Word_Pali
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodirovanieTEXT", "KodirovanieTEXT\KodirovanieTEXT.csproj", "{08B958EE-0658-4C0A-A14D-45B14D55438D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalizSlovVTEXT", "AnalizSlovVTEXT\AnalizSlovVTEXT.csproj", "{4C48B985-A21B-4D06-BC6A-4261773A0BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnicalSymbAndSendFile", "UnicalSymbAndSendFile\UnicalSymbAndSendFile.csproj", "{487AB732-AAE5-404B-BE4C-C43FDFD65342}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B958EE-0658-4C0A-A14D-45B14D55438D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C48B985-A21B-4D06-BC6A-4261773A0BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C48B985-A21B-4D06-BC6A-4261773A0BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C48B985-A21B-4D06-BC6A-4261773A0BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C48B985-A21B-4D06-BC6A-4261773A0BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487AB732-AAE5-404B-BE4C-C43FDFD65342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487AB732-AAE5-404B-BE4C-C43FDFD65342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487AB732-AAE5-404B-BE4C-C43FDFD65342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487AB732-AAE5-404B-BE4C-C43FDFD65342}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

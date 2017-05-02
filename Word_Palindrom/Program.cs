@@ -11,38 +11,44 @@ namespace Word_Palindrom
         public static bool Palindromtest(string s)
         {
             for (int i = 0, j = s.Length - 1; i < j; i++, j--)
-
                 if (s[i] != s[j])
                     return false;
             return true;
 
         }
 
+
+
         static void Main(string[] args)
         {
 
-            string text = System.IO.File.ReadAllText(@"C:\Users\buino_000\Desktop\1234.txt");
+            string text = System.IO.File.ReadAllText(@"C:\Users\student\Desktop\1234.txt");
             Console.WriteLine(text);
             string[] textWords = text.Split(new char[] { ' ', ',', '.', '—', '«', '»', '-' });
 
-            for (int i = 0; i < text.Length; i++)
+            for (int i = 0; i < textWords.Length; i++)
             {
-                if (Palindromtest(text))
-                    Console.WriteLine("Палиндром не найден");
-                else
-                {   
+                if (Palindromtest(textWords[i]))
+                {
                     string slovaPalindromi = " ";
-                    slovaPalindromi = ;
+                    slovaPalindromi = textWords[i];
+                    Console.WriteLine("Палиндром:" + "\r\n" + slovaPalindromi + "\r\n");
+                }
 
-                    Console.WriteLine("Палиндромы:" + "\r\n" + slovaPalindromi + "\r\n");
+                else
+                {
+
+                    Console.WriteLine(textWords[i] + " не палиндром ");
                 }
 
 
-                Console.ReadKey();
+
             }
+            Console.ReadKey();
         }
     }
 }
-    
-    
+
+
+
 
